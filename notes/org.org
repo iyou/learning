@@ -1,0 +1,14 @@
+* 快捷方式
+
+设置全局快捷键 (global-set-key "\C-cl" 'org-store-link)
+
+** org-store-link C-cl
+
+** org-agenda C-ca
+
+** org-capture C-cc
+
+** org-switchb C-cb
+
+
+* TODO keywords, tags and property names
