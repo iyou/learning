@@ -1,0 +1,19 @@
+* Mac 基础工具
+
+** 1. brew
+#+BEGIN_SRC shell
+  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+#+END_SRC
+
+* Emacs 工具
+
+** 拼写检查
+
+1. brew install ispell --with-lang-en
+2. brew install aspell --with-lang-en
+
+
+* 编程语言
+
+** erlang
+brew install erlang

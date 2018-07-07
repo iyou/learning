@@ -1,0 +1,17 @@
+* 格式化命令
+
+prettier --write '**/**/*.js'
+
+* 配置文件 .prettierrc
+
+#+BEGIN_SRC json
+
+{
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "printWidth": 120
+}
+
+#+END_SRC
+
+* ignore文件 .prettierignore

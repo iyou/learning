@@ -1,0 +1,19 @@
+http://pm2.keymetrics.io/docs/usage/log-management/
+
+* PM2 日志分割
+
+
+** pm2-logrotate
+pm2 install pm2-logrotate
+
+** 设置参数
+
+
+#+BEGIN_SRC bash
+
+  pm2 set pm2-logrotate:<param> <value>
+  pm2 set pm2-logrotate:max_size 1K
+  pm2 set pm2-logrotate:compress true
+  pm2 set pm2-logrotate:rotateInterval '*/1 * * * *'
+
+#+END_SRC

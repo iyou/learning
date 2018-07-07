@@ -1,0 +1,93 @@
+* MongoDB 常用命令
+
+** 显示数据库列表
+   show dbs
+
+** 显示当前数据库中的集合
+   show collections
+
+** 显示用户
+   show users
+
+** 切换当前数据库，如果数据库不存在则创建数据库
+   use <db_name>
+
+** 显示数据库操作命令，里面有很多的命令
+   db.help()
+
+** 显示集合操作命令，同样有很多的命令，foo指的是当前数据库下，一个叫foo的集合，并非真正意义上的命令
+   db.foo.help()
+
+** 删除当前使用数据库
+   db.dropDatabase()
+
+** 指定机器上的数据库的数据克隆到当前数据库
+   db.cloneDatabase("127.0.0.1")
+
+** 将本机的mydb的数据复制到temp数据库中
+   db.copyDatabase("mydb", "temp", "127.0.0.1")
+
+** 修复当前数据库
+   db.repairDatabase()
+
+** 查看当前使用的数据库，也可以直接用db
+   db.getName()
+
+** 显示当前db状态
+   db.stats()
+
+** 当前db版本
+   db.version()
+
+** 查看当前db的链接机器地址
+   db.getMongo()
+
+** 查看数据库服务器的状态
+   db.serverStatus()
+
+** 添加管理员账号
+
+1. 切换到管理员数据库
+2. 显示数据集合
+3. 创建用户账号
+
+#+BEGIN_SRC
+
+  use admin
+  show collections
+  db.createUser(
+    {
+       user: "admin",
+       pwd: "mongodb:passok",
+       roles: [ { role: "userAdminAnyDatabase", db: "admin" } ]
+     }
+  )
+
+#+END_SRC
+
+
+** 开启权限验证
+
+1. echo "auth = true" >> /root/mongodb/bin/mongodb.conf
+2. systemctl restart systemd-mongodb
+
+** 验证权限是否生效
+   show dbs
+   use admin
+   db.auth('admin','mongodb:passok')
+
+
+** 添加普通用户
+
+#+BEGIN_SRC
+
+   use mydb
+   db.createUser(
+   {
+     user: "tonny",
+     pwd: "tonny@passok",
+     roles: [ { role: "readWrite", db: "mydb" } ]
+   }
+)
+
+#+END_SRC
