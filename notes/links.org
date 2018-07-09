@@ -1,2 +1,3 @@
 1. zendesk - https://betateam3.zendesk.com/agent/filters/360031730952
-2. atlassian - https://knotelproduct.atlassian.net/secure/RapidBoard.jspa?rapidView=8&projectKey=MP&selectedIssue=MP-250&sprint=25
+2. zendesk api - https://developer.zendesk.com/rest_api/docs/core
+3. atlassian - https://knotelproduct.atlassian.net/secure/RapidBoard.jspa?rapidView=8&projectKey=MP&selectedIssue=MP-250&sprint=25
