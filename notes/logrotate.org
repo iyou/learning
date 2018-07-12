@@ -1,0 +1,29 @@
+* Logrotate for Docker container
+
+It's a best practice to log the Docker container output to /dev/stdout and /dev/stderr. But you should not forget to enable a Logrotate for your Docker container log files. The Docker container log file is saved in /var/lib/docker/containers/[CONTAINER ID]/[CONTAINER_ID]-json.log. You can use another service like fluentd or the ELK (Elasticsearch, Logstash, Kibana) stack but this is the simplest and quickest way to ensure to not run out of disk space.
+
+** Enable Logrotate
+
+To create a new Logrotate config file for your Docker containers simply create a new file in the Logrotate folder /etc/logrotate.d/docker-container and put the following lines to it:
+
+
+#+BEGIN_SRC shell
+
+/var/lib/docker/containers/*/*.log {
+  rotate 7
+  daily
+  compress
+  size=1M
+  missingok
+  delaycompress
+  copytruncate
+}
+
+#+END_SRC
+
+
+Once you have configured Logrotate for you Docker container you can test it with logrotate -fv /etc/logrotate.d/docker-container. You should get some output and a new log file with suffix [CONTAINER ID]-json.log.1 should be created. This file is compressed in next rotation cycle.
+Log rotation for Docker container is easy with Logrotate. For production use cases, you should use a logging driver like fluentd or setup your own ELK stack. Which Docker logging driver do you use?
+
+Do you know the performance differences of the Docker filesystem driver? Learn
+how to optimize your Docker performance with OverlayFS.
