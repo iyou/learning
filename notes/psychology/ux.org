@@ -1,0 +1,405 @@
+https://www.nickkolenda.com/user-experience/
+
+* User Experience
+
+
+** CONTROL THE USER’S FOCUS AND ATTENTION
+
+*** Strategy: Emphasize a Point of Entry in the Interface
+
+    Every interface should have a clear starting point. Where should viewers look first? Make it clear.
+
+    Add Visual Contrast to Page Headlines
+
+    1. Weight
+    2. Size
+    3. Color
+    4. Alignment
+    5. Isolation
+    6. Background
+
+
+       [[images-ux/UX-Tactic-1-Add-Visual-Contrast-to-Page-Headlines.png]]
+       [[./images-ux/UX-Tactic-1-Add-Visual-Contrast-to-Page-Headlines.png]]
+
+
+*** Strategy: Guide Users Through a Visual Hierarchy
+
+    Control the user’s experience by guiding them through the interface. Where should they look first, second, and third? Establish that hierarchy.
+
+    1. Avoid Trapping Negative Space in the Composition
+
+    2. Use a One Column Layout
+
+    3. Overlap a Design Element to Emphasize Continuity
+
+
+*** Strategy: Design the Layout Using Gestalt Principles
+
+    We’re inundated with stimuli. According to gestalt psychology, we try to overcome that chaos by simplifying our perception. We group things. We categorize elements. We look for the whole.
+
+    Some principles include: similarity, proximity, closure, connection, continuity, and figure/ground.
+
+    1. Group Similar Functions or Menu Items by Proximity
+    2. Position Headlines Closer to Respective Sections
+    3. Constrain Headlines to Respective Sections
+
+
+*** Strategy: Depict Interface Changes Without Disrupting the User
+
+    Sometimes you’ll need to adjust the interface in front of the user. Make those changes noticeable, yet nondisruptive.
+
+    1. Visibly Animate Changes in the Interface
+    2. Differentiate Elements That Triggered an Error
+
+
+*** Strategy: Remove or Deemphasize Unnecessary Information
+
+    Our mental focus is finite. Unnecessary elements will deplete those resources. So keep users focused on the important information and functions.
+
+    Obscure Backgrounds Behind Popup or Modal Boxes
+
+    Maximize Data-Ink Ratios in All Imagery
+
+    Remove Unnecessary Borders From Design Elements
+
+    Remove Redundant or Self-Explanatory Instructions
+
+    Hide Infrequent But Necessary Settings, Features, and Information
+
+
+*** Strategy: Indicate Whether Content Exists Beyond the Fold
+
+   Nowadays, most browsers hide scroll bars when they’re inactive. You need “scroll hints” to communicate whether content exists beyond the fold.
+
+   Extend Elements Through the Fold
+
+   Add a Shadow to Indicate Depth
+
+   Indicate More Content With Words or Graphics
+
+
+** GUIDE USERS TOWARD THE END GOAL
+
+   Now that you’ve captured and directed the user’s attention, help them achieve their goal.
+
+*** Strategy: Position Frequent Functions and Important Data Closer to Users
+
+    Predict the user’s intention. Then position that goal as close as possible.
+
+    Filter or Jump to Items That Users Are Searching
+
+    Create Smart Defaults Based on Frequently Chosen Input
+
+    Include Important Data on Product Listing Pages
+
+    Oftentimes, users will pogo stick. They click an item to look for information. Then they’ll return to the previous page to repeat that process with another item. That’s poor usability. Minimize pogo-sticking by placing important information on primary pages.
+
+    If you don’t like the extra clutter, you could include that information on hover (see next tactic).
+
+    Provide Useful Information on Hover
+
+    Expose Frequently Used Functions
+
+    Display Primary Data or Statuses in a Dashboard
+
+    Position Common Answers at the Top of Drop Down Lists
+
+
+
+*** Strategy: Communicate the Statuses of Interactions
+
+    Reduce uncertainty by conveying all pertinent information.
+
+    Display Current Progress and Time Remaining on Machine-Driven Tasks
+
+    Communicate the Current Phase of Complex or Lengthy Interactions
+
+    Reveal the Number of Steps Within a Sequence
+
+    Reveal the Number of Items in a Category
+
+
+*** Strategy: Offer Multiple Ways to Accomplish the Same Task
+
+    Users prefer different workflows. Create different paths for each goal, and let users choose the most appropriate path for their workflow.
+
+    Let Users Log In Via Username or Email
+
+    Offer Keyboard Shortcuts for Repetitive Functions
+
+    Let Users Drag and Drop Elements
+
+    Let Users Directly Edit Data
+
+
+
+*** Strategy: Communicate Requirements or Parameters for an Interaction
+
+    Prepare users for each interaction. What will they need? How do they proceed?
+
+    Describe the Input That You Require From Users
+
+    Give Real-Time Password Requirements and Feedback
+
+    Prepopulate Form Elements With Universal Parameters
+
+    Indicate Required and Optional Form Elements
+
+
+
+*** Strategy: Communicate the Expected Outcome of an Interaction
+
+    Before users interact with an element, they should understand the intended outcome.
+
+    Use Descriptive Button Labels
+
+    Show a Preview of the Output Based on the Current Input
+
+    Indicate or Preview the Next Item in a Sequence
+
+    Use Smart Menu Items to Clarify Actions
+
+
+
+*** Strategy: Reward or Reassure Users When They Make Progress
+
+    Are users making progress? Was their interaction successful? Let them know. And entice them to continue.
+
+    Maintain Congruency Between Links and Target Pages
+
+    Provide Quick Wins During Onboarding
+
+    Start Progress Bars Above 0
+
+
+
+*** Strategy: Solve the User’s Core Intent
+
+    Oftentimes, we solve surface-level needs. Go deeper. Always brainstorm why users need certain features or information. Then solve the underlying intent.
+
+
+Indicate Whether Your Office is Open or Closed
+
+Indicate the Recency of Events
+
+** REDUCE MENTAL EFFORT AND MAINTAIN FLOW
+
+   In addition to guiding users, reduce their cognitive workflow. That way, you prolong their state of “flow.”
+
+*** Strategy: Minimize User Calculations
+
+   Never make the user perform math. Let the computer handle it.
+
+Indicate the Number of Items Remaining
+
+
+
+*** Strategy: Convey the User’s Current Location Within the Interface
+
+Interfaces are like airports. Without a “you are here” marker, users can get lost. So create those markers.
+
+Highlight the Section Within the Navigation Menu
+
+Provide Breadcrumbs or Sequence Maps in Complex Interfaces
+
+Put Descriptive or Useful Information at the Beginning of Page Titles
+
+*** Strategy: Simplify Choice Tasks
+
+Choices require effort. Reduce that effort by simplifying those tasks.
+
+Indicate the Options That Most Users Choose
+
+Provide a Curated List of Common Search Terms
+
+Create Tight Categories Within Navigation Menus
+
+
+
+*** Strategy: Use Conventional Web Design Interfaces
+
+Creativity is great. But don’t stray far from a conventional design. Users are accustomed to certain layouts and structures. Those conventional designs are popular because they work.
+
+Use Conventional Navigation Menus
+
+Put Utilities in the Top Right Corner
+
+
+
+*** Strategy: Provide Feedback After Each Interaction
+
+When users interact with your interface, they should experience real-time feedback. Was something successful? Was it unsuccessful? What changed?
+
+Display Success Messages After Important Interactions
+
+Indicate Which Items the Cursor is Hovering Over
+
+
+*** Strategy: Minimize the Negative Effects of Waiting Periods
+
+Eliminate all unnecessary waiting periods. If users need to wait, then minimize those negative effects.
+
+Use Cool Colors in Loading Animations to Decrease Arousal
+Blue reduces arousal (and increases relaxation). With blue loading elements, users perceive quicker loading times (Gorn et al., 2004). See my article on color for more detail.
+
+Keep Users Engaged During Lengthy Waiting Periods
+
+Prevent Users From Uploading Files That Are Incompatible
+Display a Running Tally of Tasks Occurring
+
+
+*** Strategy: Minimize the User’s Reliance on Memory
+
+Don’t force the user to remember anything. Keep all pertinent information in the open.
+
+Avoid inline labels that disappear when users click inside the element.
+
+Keep Form Labels Visible At All Times
+
+Position Placeholder Text Outside the Form Element
+
+Add Copy Buttons to Movable Input
+
+
+*** Strategy: Minimize Zig Zagging Eye Patterns
+
+Reduce the amount of back-and-forth eye motions. Keep all complementary data within close distances.
+
+Merge Congruent Data to Help Users Compare Items
+
+Align Form Labels Directly Adjacent to Elements
+
+
+
+
+
+
+*** Strategy: Communicate Which Items Are Clickable or Interactive
+
+Users should identify which elements are interactive (and how to interact with them). If you’re familiar with UX/UI, then you probably know signifiers and affordances, popularized by Don Norman in The Design of Everyday Things.
+
+Design Buttons Using 3D Characteristics
+
+Add Dotted Textures to Drag and Drop Elements
+
+Use Icons and Symbols to Convey the Meaning of an Interaction
+You can create most of these icons using various shapes in PowerPoint or Keynote.
+
+
+*** Strategy: Communicate Using Familiar Words and Symbols
+
+In most cases, clarity trumps creativity or jargon.
+
+Speak the Language of the User, Not the System
+
+Offer a Translate Button When Foreign Languages Appear
+
+Choose Colors That Are Semantically Congruent
+
+When colors are incongruent, users have more trouble processing the information. Currently, meetup.com has great usability. However, they’re using red to confirm attendance (when they should be using green):
+
+
+
+*** Strategy: Maximize the Scannability of Your Interface
+
+Most users will process your content by scanning it. And you shouldn’t fight it. Embrace it. Make your interface more conducive to scanning.
+
+Keep Paragraphs Short and Highlight Key Terms
+
+Position Important Information at Beginning of List Items
+
+Add Row Stripes to Your Tables
+
+Write Standalone Subheadlines
+
+Break Up Text With Visual Variety
+
+
+
+*** Strategy: Maximize the Readability of Text
+
+Obviously, text should be readable. But here are some tips to make it more readable.
+
+Create Strong Contrast Between the Text and Background
+
+Be careful displaying text over backgrounds. You might need to add contrast through an overlay or blur. Let’s add text over my beautiful face…
+
+Left Align the Majority of Body Text
+
+*** Strategy: Use Consistent Patterns Throughout the Interface
+
+With inconsistent patterns, users will need more time to learn your interface. Simplify it by maintaining a consistent layout and appearance.
+
+Create a Front-End Style Guide
+
+Create a document summarizing the design specifications for each element in your interface.
+
+Other elements include:
+
+Colors
+Grids and Layouts
+Placement and Positioning
+Size and Shape
+Labels and Language
+Navigation
+Tables
+Lists
+Links
+Voice and Tone
+
+
+Need inspiration? Look through Mailchimp’s style guide.
+
+
+Keep Navigation Menus in the Same Position
+
+
+
+
+*** Strategy: Create Beautiful Designs With Visual Balance
+
+Designs are more usable when they’re aesthetically pleasing — a principle called the aesthetic-usability effect (Kurosu & Kashimura, 1995).
+
+Construct Designs Using Mathematical Principles
+
+Choose Contrasting Fonts
+
+When some people choose a matching typeface, they search for a font that looks similar to the existing one. But that’s the wrong approach. Oftentimes, the similarity will look like a mistake.
+
+Instead, be deliberate. Choose typefaces with noticeable contrast. If you’re a newb designer, you can choose a serif vs sans-serif combination (serifs are the “twigs” on the ends of letters).
+
+
+
+** MAXIMIZE COMPATIBILITY FOR ALL USERS AND SCENARIOS
+
+*** Strategy: Maximize Compatibility With Users’ Knowledge and Skill Level
+
+*** Strategy: Maximize Compatibility With the User’s Workflow
+
+*** Strategy: Maximize the Accessibility of Your Interface
+
+*** Strategy: Maximize Compatibility for All Inputs and Extreme Cases
+
+*** Strategy: Maximize Compatibility for All Mediums
+
+
+** HELP USERS MINIMIZE AND OVERCOME POTENTIAL ERRORS
+
+*** Strategy: Prevent the Possibility of Errors
+
+*** Strategy: Monitor Signals That Are Typical in Errors
+
+*** Strategy: Differentiate Powerful Functions to Minimize Slips
+
+*** Strategy: Provide Easy Ways to Revert or Escape
+
+*** Strategy: Minimize the Negative Effects of Leaving Sequences
+
+*** Strategy: Extend Movable Paths and Clickable Areas
+
+*** Strategy: Provide Useful and Supportive Error Messages
+
+*** Strategy: Keep a Record of the User’s Previous Actions
+
+*** Strategy: Analyze User Behavior to Find Interface Issues
