@@ -1,0 +1,32 @@
+* 技巧
+
+  utf8mb4有一个使用限制，mysql版本必须是5.5以上
+
+** 查看 MySql 版本
+
+select version();
+
+** 查看字符集设置
+  show variables like 'collation_%'
+
+** 查看字符集
+show variables like '%char%';
+
+** 修改数据库的字符集
+use mydb
+alter database mydb character set utf-8;
+
+** 创建数据库指定数据库的字符集
+create database mydb character set utf-8;
+
+
+** 通过MySQL命令行修改
+set character_set_client=utf8;
+set character_set_connection=utf8;
+set character_set_database=utf8;
+set character_set_results=utf8;
+set character_set_server=utf8;
+set character_set_system=utf8;
+set collation_connection=utf8;
+set collation_database=utf8;
+set collation_server=utf8;
