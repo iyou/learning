@@ -30,3 +30,44 @@ set character_set_system=utf8;
 set collation_connection=utf8;
 set collation_database=utf8;
 set collation_server=utf8;
+
+
+* 升级更新 MySQL
+
+** 文件默认位置
+
+#+BEGIN_SRC shell
+
+  /usr/bin                 客户端程序和脚本
+  /usr/sbin                mysqld 服务器
+  /var/lib/mysql           日志文件，数据库  ［重点要知道这个］
+  /usr/share/doc/packages  文档
+  /usr/include/mysql       包含( 头) 文件
+  /usr/lib/mysql           库
+  /usr/share/mysql         错误消息和字符集文件
+  /usr/share/sql-bench     基准程序
+
+
+#+END_SRC
+
+** 打开关闭mysql
+
+/etc/init.d/mysql start
+/etc/init.d/mysql stop
+
+** 下载 MySQL 5.7 最新版
+
+wget https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-5.7.18-linux-glibc2.5-x86_64.tar.gz
+
+** 解压到指定目录
+
+tar zxvf mysql-5.7.18-linux-glibc2.5-x86_64.tar.gz -C /usr/local/
+
+** 删除原有的软链接
+unlink /usr/local/mysql
+
+** 新建软链接指向 MySQL 5.7目录
+ln -s  /usr/local/mysql-5.7.18-linux-glibc2.5-x86_64 /usr/local/mysql
+
+** 利用MySQL 5.7包中的mysql_upgrade 升级MySQL数据中的系统表　-p 指定密码
+/usr/local/mysql/bin/mysql_upgrade -s -p
