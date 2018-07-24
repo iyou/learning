@@ -1,3 +1,14 @@
 692f376c-88c0-4e13-8c4a-20b834235e7a
 
-1.royal 2.burger 3.gorilla 4.pair 5.suit 6.notice 7.sample 8.this 9.quarter 10.grace 11.gift 12. old
+royal
+burger
+gorilla
+pair
+suit
+notice
+sample
+this
+quarter
+grace
+gift
+old
