@@ -1,0 +1,16 @@
+
+1 — Super simple, probably under 30 minutes e.g. changing the text of a button or its color
+
+3 — A bit tougher, maybe an hour or two, like fixing a 404 (simple but needs a bit of testing)
+
+5 — Roughly a half of day, like writing unit-test for a component
+
+8 — A small feature that takes 1-2 days, like building a navigation menu or writing a new API endpoint
+
+13 — A larger, more complex feature that takes 2-3 days, like a new form
+
+21 — Bigger and less understood, should probably be broken into smaller stories before being started, like adding a search box to search all of our content (needs FE and BE architecture thought through before development can happen)
+
+3400 — A half of year or so, like full redesign of working Knotel Web and Mobile apps
+
+100500 — Likely never to get done
