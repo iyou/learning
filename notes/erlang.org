@@ -1,0 +1,78 @@
+* Books
+
+** Learn your some erlang
+
+*** introduction
+
+**** install
+1. apt-get install erlang
+2. brew install erlang
+
+**** get help
+1. erl -man lists
+
+**** Good coding practices
+http://www.erlang.se/doc/programming_rules.shtml
+
+**** learning sources
+1. #erlang at irc.freenode.net
+2. maillist http://www.erlang.org/community/mailinglists
+3.
+
+*** The Shell
+
+**** shell commands
+
+1. help().
+
+
+*** Data type
+
+**** Number
+
+1. 运算符
++
+-
+*
+/
+rem
+div
+
+2. 进制
+Base#value
+2#101010.
+8#0667.
+16#AE.
+
+**** Atom
+
+**** Boolean
+
+true and false.
+false or true.
+true xor false.
+not false.
+not ( true and true ).
+
+=:=
+=/=
+==
+/=
+<
+>
+<=
+=<
+
+**** Tuples
+
+{X,Y}
+{_,_} = {4,5}.
+
+**** Lists
+
+[97, 98, 99].
+
+++
+--
+hd([1,2,3,4]).
+tl([1,2,3,4])
