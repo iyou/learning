@@ -1,3 +1,6 @@
+* table
+http://www.zmonster.me/2016/06/03/org-mode-table.html
+
 * 快捷方式
 
 设置全局快捷键 (global-set-key "\C-cl" 'org-store-link)
