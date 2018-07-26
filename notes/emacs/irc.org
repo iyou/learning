@@ -100,3 +100,10 @@
    截断buffer到指定的大小
  * unmorse
    在消息中翻译莫斯码
+
+
+
+** IRC命令
+/join #频道 加入频道
+/msg NickServ register 密码 注册昵称
+/query <nick> 与某人私聊
