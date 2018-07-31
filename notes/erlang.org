@@ -1,3 +1,7 @@
+* Resources
+
+https://learnyousomeerlang.com/
+
 * Books
 
 ** Learn your some erlang
