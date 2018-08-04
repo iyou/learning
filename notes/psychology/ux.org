@@ -373,33 +373,169 @@ Instead, be deliberate. Choose typefaces with noticeable contrast. If you’re a
 
 ** MAXIMIZE COMPATIBILITY FOR ALL USERS AND SCENARIOS
 
+Your users are different people with different goals. Design your interface so that it’s compatible for everyone.
+
 *** Strategy: Maximize Compatibility With Users’ Knowledge and Skill Level
+
+Your users will be novices, experts, or a mixture. Design your interface accordingly.
+
+Use the Proper Amount of Onboarding
+
+There are four main onboarding strategies:
+
+Those four approaches align nicely in a 2 x 2 matrix. Use the following diagram to choose the best approach for your interface.
+
+Add Tooltips to Coach Novice Users Without Disrupting Expert Users
+
+Use Card Sorting to Construct the Information Architecture
+Use open card sorting if you want to see how users determine or conceptualize the menu categories.
+Use closed card sorting if you want to see how users organize existing elements into pre-determined categories.
 
 *** Strategy: Maximize Compatibility With the User’s Workflow
 
+Users will have different needs. Customize your interface toward those different workflows.
+Let Users Control the Appearance of Data
+Let Users Control the Order of Data
+Other sorting criteria include:
+
+Alphabetically
+Availability
+Categorically
+Date
+Distance
+Popularity
+Price
+Relevance
+Size
+
+
+Let Users Control the Quantity of Data
+
+Construct Personas to Identify Specific Workflows
+
+
+Let Users Open Pages in New Tabs
+
+Many users will page park. They’ll open tabs to read later.
+
+
+
 *** Strategy: Maximize the Accessibility of Your Interface
+Make your interface accessible to people with disabilities. Not only is it a best practice, but you could also face legal consequences (depending on your product).
+
+Use Semantic Labels in HTML5
+
+Use Multiple Cues to Communicate Information
+Around 8 percent of males are colorblind (Chan, Goh, & Tan, 2014). Never convey meaning through color alone. Always offer additional cues.
+
 
 *** Strategy: Maximize Compatibility for All Inputs and Extreme Cases
+Users should be able to enter a wide range of input without consequences.
+
+Resolve Unfavorable Outcomes in Automatically Generated Messages
+
+Use Form Elements That Accept Various Formats of Input
+Display Results That Solve the Searcher’s Need
+
+Use Search Fields That Handle Typos, Synonyms, and Variants
+
 
 *** Strategy: Maximize Compatibility for All Mediums
+Your interface should work in all environments (e.g., devices, browsers, etc.).
 
+Customize Instructions for the User’s Browser
+Use One-Window Drilldowns on Small Devices
 
 ** HELP USERS MINIMIZE AND OVERCOME POTENTIAL ERRORS
+   In most interfaces, errors are unavoidable. If they do happen, help users overcome them quickly and easily.
+
 
 *** Strategy: Prevent the Possibility of Errors
 
+When designing your interface, don’t immediately focus on solutions. Rather, try to make errors impossible to occur referred to as poka-yoke)
+
+Remove, Disable, or Replace Buttons When Users Click Them
+Don’t tell users to click “Submit” once. If they can click more than once, they will. Instead, disable buttons when users click them. That way, duplicate submissions are impossible..
+Only Offer Inputs That Are Acceptable
+
+Use Responsive Enabling or Disclosure in Form Elements
+
+Structure Text Fields to Match the Required Input
+
+
+
 *** Strategy: Monitor Signals That Are Typical in Errors
+
+What are common errors in your interface? Identify signals that are inherent in those errors. Then monitor when those signals occur.
+
+Search for Wording That Contradicts User Intent
+Remind Users if They’ve Already Purchased an Item
+
+
+
 
 *** Strategy: Differentiate Powerful Functions to Minimize Slips
 
+Users will lose focus. You can’t prevent it. However, you should visually distinguish powerful functions so that you minimize the possibility of damaging errors.
+
+Separate Powerful Functions by Space or Color
+
+Add Constraints to Significant Irreversible Changes
+
+
 *** Strategy: Provide Easy Ways to Revert or Escape
+
+Always give users the option to return to a previous page or safe/recognizable area.
+Use Undos Rather Than Confirmations
+Offer an Escape Hatch on All Pages and Functions
+For example, some drop down menus offer no escape hatch. When users click an option, they can’t leave it blank anymore.
+
+Provide a Visible Close on Popups and Modal Boxes
 
 *** Strategy: Minimize the Negative Effects of Leaving Sequences
 
+Users should be able to return to a sequence in the same position with the same data.
+
+Save Data That Users Enter
+Let Users Return to the Same Position in a Sequence
+
+
 *** Strategy: Extend Movable Paths and Clickable Areas
+
+Users aren’t perfect. They make mistakes with the cursor. Create interfaces that are flexible and forgiving.
+
+Add a Transparent Border to Small Buttons
+Add a Slight Delay to Hover Pop Ups and Drop Down Menus
+Hyperlink the Entire Menu Option Container
+
+Hyperlink Primary Menus, List Items, and Complementary Icons
+Oftentimes, users click items that aren’t clickable. Don’t fight those mistakes. Instead, add clickable functionality to those common areas.
+
 
 *** Strategy: Provide Useful and Supportive Error Messages
 
+Never give a standard “there was an error” message. Explain the reason — and ideally the solution — to the error.
+Explain the Reason for Validation Errors
+
+Point Users Toward Documentation or Support for Complex Errors
+
+Avoid Saying “You” in Error Messages
+
+
+
 *** Strategy: Keep a Record of the User’s Previous Actions
 
+Remind users of their past actions in your interface.
+Display the User’s Recent Searches
+Use Different Colors for Visited Links
+Indicate Which Items Users Have Already Viewed
+
+
 *** Strategy: Analyze User Behavior to Find Interface Issues
+
+
+Always iterate and improve your interface. Use these tactics to get started.
+Gather User Feedback in Appropriate Places
+Create Alerts for Increases in 404 Errors
+Identify Pages Where Users Are Pogo-Sticking
+If a page is receiving many views (yet few unique views), then double check whether users are pogo sticking on that page
