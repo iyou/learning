@@ -1,0 +1,83 @@
+* Install
+
+** Elixir
+
+*** MAC OSX
+
+#+BEGIN_SRC sh
+
+brew update
+brew install elixir
+
+#+END_SRC
+
+
+** Erlang
+
+*** MAC OSX
+
+#+BEGIN_SRC sh
+
+brew install erlang
+
+#+END_SRC
+
+
+** Hex
+
+*** MAC OSX
+
+#+BEGIN_SRC sh
+
+mix local.hex
+
+#+END_SRC
+
+** Plug
+
+** Cowboy
+
+** Ecto
+
+** Nodejs
+
+brew install nodejs
+
+
+** PostgreSQL
+
+http://www.russbrooks.com/2010/11/25/install-postgresql-9-on-os-x
+
+#+BEGIN_SRC sh
+
+# remove old postgresql
+
+brew rm postgresql --force
+
+# or remove it manually
+
+sudo /sbin/SystemStarter stop postgresql-8.4
+sudo rm -rf /Applications/PostgreSQL\ 8.4
+sudo rm -rf /etc/postgres-reg.ini
+sudo rm -rf /Library/StartupItems/postgresql-8.4
+sudo rm -rf /Library/PostgreSQL/8.4
+sudo dscl . delete /users/postgres
+
+# To migrate existing data from a previous major version of PostgreSQL run:
+brew postgresql-upgrade-database
+
+# To have launchd start postgresql now and restart at login:
+brew services start postgresql
+
+# Or, if you don't want/need a background service you can just run:
+pg_ctl -D /usr/local/var/postgres start
+
+# For compilers to find readline you may need to set:
+export LDFLAGS="-L/usr/local/opt/readline/lib"
+export CPPFLAGS="-I/usr/local/opt/readline/include"
+
+#+END_SRC
+
+
+*** install pgAdmin
+https://www.postgresql.org/download/
