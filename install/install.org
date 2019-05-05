@@ -1,3 +1,53 @@
+1. Alfred https://www.alfredapp.com/
+2. Dash https://kapeli.com/dash
+3. iTerm2 https://www.iterm2.com/
+4. oh my zsh https://ohmyz.sh/
+5. HomeBrew https://brew.sh/
+6. f.lux https://justgetflux.com/
+7. Vimiim https://vimium.github.io/
+8. Chrome https://vimium.github.io/
+9. Charles https://www.charlesproxy.com/
+10. Sketch https://www.sketch.com/
+11. MindNode https://mindnode.com/
+12. Paw https://paw.cloud/
+13. SnippetsLab https://www.renfei.org/snippets-lab/
+14. n https://github.com/tj/n
+
+https://juejin.im/post/5856a54a1b69e60056dcbe0a
+
+破解 https://bestswifter.com/app-crack/
+1. class-dump http://stevenygard.com/projects/class-dump/
+2. 
+
+
+brew 安装
+1. aspell
+2. postgresql
+3. lua
+4. redis
+5. mongoldb
+6. mysql
+7. sqlite
+8. rlwrap
+9. rigpgrep
+10. elixir
+11. erlang
+12. figlet
+13. htop
+14. tig
+15. tmux
+16. tree
+17. jq
+18. git
+19. otx  brew install --HEAD homebrew/head-only/otx
+20. gdb
+
+
+
+
+
+
+
 * Mac 基础工具
 
 ** 1. brew
